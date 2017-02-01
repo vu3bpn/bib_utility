@@ -1,0 +1,24 @@
+\documentclass[12pt,a4paper]{article}
+\author{Bipin c}
+\usepackage[backend=bibtex,style=numeric]{biblatex}
+\usepackage{hyperref}
+\hypersetup{
+	colorlinks=True,
+	linkcolor=black,
+	filecolor=magenta,      
+	urlcolor=cyan,
+}
+%\usepackage[backend=biber,style=numeric]{biblatex}
+%\usepackage{cite}
+\bibliography{Citations}	
+
+\begin{document}
+	\tableofcontents
+	\input{pull_citetation}
+	%\nocite{*}
+	%\cite{1024997}
+	%\citefield{1024966}{abstract}
+	%\citefield{1024995}{abstract}
+	%\citeall[\testcite]	
+	\printbibliography	
+\end{document}
